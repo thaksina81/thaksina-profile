@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title><div id="DDA0DD"></div></title>
-        </head>
-        <body bgcolor="Plum">
-        </body>
+    
 
 <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css bs/bootstrap.min.css">
     <meta charset="utf-8">
     <title>Abhisit Profile Site</title>
     <link href='https://fonts.googleapis.com/css?family=Aclonica'rel='stylesheet'>
     <!--line 7,18: Exeternal Resource Link  
         font-family Ref:https://www.w3schools.com/whatis/tryit.asp?font=Aclonica -->
+       
 </head>
 
 <body>
+    <style>
+        body{background-color: #87CEFA;} 
+    </style>
     <!-- Header -->
     <!-- Ref:https://developer.mozilla.org/en-US/docs/Web/CSS/font-family-->
     <h1 style="text-align: center; font-family: cursive;">Profile</h1>
@@ -24,25 +26,42 @@
         "สู้ชีวิตแต่ชีวติสู้กลับ."</i></h4>    
     <hr>
     <!-- Menu -->
-    <table style="width:100%; text-align: center">
-        <tr>
-            <td>
-                <h3><a href="index.html">Profile</a></h3>
-            </td>
-            <td>
-                <h3><a href="experiences.html">Experiences</a></h3>
-            </td>
-            <td>
-                <h3><a href="abilities.html">Abilities</a></h3>
-            </td>
-            <td>
-                <h3><a href="projects.html">Projects</a></h3>
-            </td>
-            <td>
-                <h3><a href="contact.html">Contact</a></h3>
-            </td>
-        </tr>
-    </table>  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Menu</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="experiences.html">Experiences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="abilities.html">Abilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <hr>
     <table>
         <tr>
